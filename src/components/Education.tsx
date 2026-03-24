@@ -9,6 +9,12 @@ const education = [
     description:
       "Coursework includes Data Structures & Algorithms, Operating Systems, DBMS, Computer Networks, and OOP.",
   },
+  {
+    degree: "Intermediate (CGPA: 7.5)",
+    institution: "Bal Mandir Senior Secondary School, Kishanganj, Bihar",
+    duration: "Apr 2020 — Mar 2022",
+    description: "Completed secondary education with a focus on core subjects.",
+  },
 ];
 
 export default function Education() {

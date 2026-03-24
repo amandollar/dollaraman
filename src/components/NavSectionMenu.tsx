@@ -154,7 +154,7 @@ export default function NavSectionMenu({ sections }: Props) {
                     <motion.li key={item.href} variants={rowVariants} transition={{ duration: 0.2 }}>
                       {showGroup && (
                         <div className="px-3 pb-1 pt-3 first:pt-1">
-                          <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-notion-sub/75">
+                          <span className="font-heading text-[10px] font-bold uppercase tracking-[0.2em] text-notion-sub/75">
                             {item.group}
                           </span>
                         </div>
@@ -171,7 +171,7 @@ export default function NavSectionMenu({ sections }: Props) {
                         <span className="w-8 shrink-0 font-mono text-[11px] tabular-nums text-notion-sub/70 transition-colors group-hover:text-notion-sub">
                           {String(i + 1).padStart(2, "0")}
                         </span>
-                        <span className="min-w-0 flex-1 pr-1">{item.name}</span>
+                        <span className="font-heading min-w-0 flex-1 pr-1">{item.name}</span>
                       </Link>
                     </motion.li>
                   );

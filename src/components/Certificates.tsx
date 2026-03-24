@@ -13,6 +13,20 @@ type Cert = {
 
 const certificates: Cert[] = [
   {
+    title: "Google Networking Specialization",
+    issuer: "Google",
+    date: "Dec 2025",
+    href: "/google-networking-cert.jpeg",
+    imageUrl: "/google-networking-cert.jpeg",
+  },
+  {
+    title: "Full Stack Web Development",
+    issuer: "Apna College",
+    date: "Aug 2024",
+    href: "/apna-college-web-dev.jpeg",
+    imageUrl: "/apna-college-web-dev.jpeg",
+  },
+  {
     title: "Crowdfunding Internship (Completion Certificate)",
     issuer: "Muskurahat Foundation",
     date: "July 2025",

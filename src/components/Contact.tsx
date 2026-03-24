@@ -13,8 +13,8 @@ type ContactItem = {
 const contactItems: ContactItem[] = [
   {
     name: "Email",
-    value: "amanreal122@gmail.com",
-    href: "mailto:amanreal122@gmail.com",
+    value: "shreeaman1@gmail.com",
+    href: "mailto:shreeaman1@gmail.com",
     icon: Mail,
   },
   {

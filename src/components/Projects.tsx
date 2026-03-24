@@ -67,7 +67,7 @@ export default function Projects() {
                 <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
                   <div className="space-y-2">
                     <div className="flex items-center gap-3">
-                      <h3 className="text-lg font-bold tracking-tight text-notion-main transition-colors group-hover:text-[var(--accent)]">
+                      <h3 className="font-heading text-lg font-bold tracking-tight text-notion-main transition-colors group-hover:text-[var(--accent)]">
                         {project.title}
                       </h3>
                       {index === 0 && (

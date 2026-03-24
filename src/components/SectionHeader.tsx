@@ -9,7 +9,7 @@ export default function SectionHeader({ title, id }: SectionHeaderProps) {
     <div className="mb-8 scroll-mt-24 md:mb-10">
       <h2
         id={id}
-        className="text-[1.65rem] font-semibold leading-tight tracking-[-0.02em] text-notion-main md:text-[1.75rem]"
+        className="font-heading text-[1.65rem] font-semibold leading-tight tracking-[-0.02em] text-notion-main md:text-[1.75rem]"
       >
         {title}
       </h2>

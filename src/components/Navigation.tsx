@@ -24,7 +24,7 @@ export default function Navigation() {
       <div className="mx-auto flex min-h-[3.25rem] max-w-7xl items-center gap-3 px-4 py-2.5 sm:gap-5 sm:px-10 lg:px-12">
         <Link
           href="/"
-          className="shrink-0 text-base font-bold tracking-tight text-notion-main transition-[opacity,transform] hover:opacity-90 active:scale-[0.98] sm:text-lg"
+          className="shrink-0 font-heading text-base font-bold tracking-tight text-notion-main transition-[opacity,transform] hover:opacity-90 active:scale-[0.98] sm:text-lg"
         >
           Aman Sharma
         </Link>

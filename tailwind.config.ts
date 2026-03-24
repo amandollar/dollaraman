@@ -15,6 +15,11 @@ const config: Config = {
         muted: "var(--muted)",
         border: "var(--border)",
       },
+      fontFamily: {
+        sans: ["var(--font-inter)", "ui-sans-serif", "system-ui"],
+        heading: ["var(--font-plus-jakarta)", "sans-serif"],
+        mono: ["var(--font-jetbrains-mono)", "monospace"],
+      },
     },
   },
   plugins: [],

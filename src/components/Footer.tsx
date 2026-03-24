@@ -20,7 +20,7 @@ export default function Footer() {
           LinkedIn
         </a>
         <a
-          href="mailto:amanreal122@gmail.com"
+          href="mailto:shreeaman1@gmail.com"
           className="rounded-[3px] px-1 py-0.5 transition-colors hover:bg-[var(--card-hover)] hover:text-notion-main"
         >
           Email

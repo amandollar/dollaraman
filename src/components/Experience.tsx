@@ -62,7 +62,7 @@ export default function Experience() {
                   />
                 </div>
                 <div className="space-y-3">
-                  <h3 className="text-xl font-bold text-notion-main group-hover:text-black dark:group-hover:text-white transition-colors">
+                  <h3 className="font-heading text-xl font-bold text-notion-main group-hover:text-black dark:group-hover:text-white transition-colors">
                     {exp.role} <span className="text-notion-sub font-normal mx-1">@</span> {exp.company}
                   </h3>
                   <p className="text-sm text-notion-sub">{exp.location}</p>

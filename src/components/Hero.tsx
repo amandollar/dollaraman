@@ -10,7 +10,7 @@ export default function Hero() {
             <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-notion-sub">
               Portfolio
             </p>
-            <h1 className="lux-headline text-[2.75rem] font-bold leading-[1.08] tracking-[-0.03em] md:text-6xl text-notion-main">
+            <h1 className="lux-headline font-heading text-[2.75rem] font-bold leading-[1.08] tracking-[-0.03em] md:text-6xl text-notion-main">
               Aman Sharma
             </h1>
             <p className="max-w-2xl text-lg font-medium leading-snug text-notion-sub md:text-xl">

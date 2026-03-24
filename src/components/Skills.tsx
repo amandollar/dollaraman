@@ -41,6 +41,7 @@ const skillGroups = [
       { name: "NPM", icon: "/skills/npm.jpg" },
       { name: "OpenAI", icon: "/skills/open-ai.jpg" },
       { name: "Solana", icon: "/skills/solana.jpg" },
+      { name: "Vercel", icon: "/skills/vercel.jpg" },
     ],
   },
 ];
@@ -53,14 +54,14 @@ export default function Skills() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {skillGroups.map((group) => (
             <div key={group.category} className="space-y-4">
-              <h3 className="text-xs font-semibold uppercase tracking-[0.1em] text-notion-sub">
+              <h3 className="font-heading text-xs font-semibold uppercase tracking-[0.1em] text-notion-sub">
                 {group.category}
               </h3>
               <div className="flex flex-wrap gap-3">
                 {group.items.map((skill) => (
                   <div
                     key={skill.name}
-                    className="flex items-center gap-2 px-3 py-1.5 bg-notion-muted text-notion-main rounded-[4px] text-sm font-medium border border-notion hover:border-accent transition-colors"
+                    className="flex items-center gap-2 px-3 py-1.5 bg-notion-muted text-notion-main rounded-[4px] text-sm font-medium border border-notion hover:border-accent transition-all hover:-translate-y-0.5"
                   >
                     {skill.icon && (
                       <div className="w-4 h-4 shrink-0 overflow-hidden rounded-[2px]">
