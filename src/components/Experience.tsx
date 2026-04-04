@@ -4,6 +4,18 @@ import Image from "next/image";
 
 const experiences = [
   {
+    company: "Polar Cut",
+    logo: "/polar_cut_logo.png",
+    role: "Full Stack AI Engineer",
+    location: "Remote",
+    duration: "Mar 2026 — Apr 2026",
+    highlights: [
+      "Designed and built an LLM-driven prompt-to-video generation pipeline, converting unstructured user input into structured JSON, applying intent detection, and mapping to reusable animation templates rendered via Remotion.",
+      "Developed a modular rendering architecture with a template engine and creative enhancement layer, including a custom SVG-based map rendering system for dynamic geographic visualizations.",
+      "Scaled the system by transitioning from an in-memory queue to a distributed worker-based architecture, enabling asynchronous video rendering, improved reliability, and better handling of concurrent workloads.",
+    ],
+  },
+  {
     company: "Dhoonki",
     logo: "/dhoonki.webp",
     role: "Frontend Engineer",
@@ -33,7 +45,7 @@ const experiences = [
     logo: "/namastedev.webp",
     role: "Technical Content Contributor",
     location: "Remote",
-    duration: "Jul 2025 — Dec 2025",
+    duration: "Aug 2025 — Dec 2025",
     highlights: [
       "Authored 20+ React-based algorithmic challenges emphasizing time/space complexity and edge-case robustness.",
       "Developed automated validation suites using Jest with deterministic grading logic.",
